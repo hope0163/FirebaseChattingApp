@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1076051649026",
+    "project_id": "chattingapp-347af",
+    "storage_bucket": "chattingapp-347af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076051649026:android:9f10acd218720a904d3d1b",
+        "android_client_info": {
+          "package_name": "com.hope0163.chattingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-zSH9hUIkha8A7PhQiEcu23wxK0pqVKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

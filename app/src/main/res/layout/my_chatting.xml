@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:paddingRight="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImgProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/basic_profile" />
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/circleImgProfile"
+        android:text="test"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/txtUserName"
+        android:layout_alignRight="@+id/txtUserName"
+        android:padding="6dp"
+        android:src="@drawable/play_store_512"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserName"
+        android:layout_alignRight="@+id/txtUserName"
+        android:background="@drawable/chat_bubble"
+        android:maxWidth="250dp"
+        android:padding="12dp"
+        android:text="test"
+        android:textColor="@color/black"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtMessage"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@+id/txtMessage"
+        android:text="test"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
